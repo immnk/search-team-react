@@ -31,7 +31,7 @@ module.exports = (env) => {
       path: path.resolve(packageRoot, 'build'),
       filename: '[name].js',
       chunkFilename: '[name]-[hash:8].js',
-      publicPath: '/'
+      publicPath: 'https://immnk.github.io/search-team-react/'
     },
     resolve: {
       extensions: ['.js', '.jsx'],
@@ -133,7 +133,7 @@ module.exports = (env) => {
         now: new Date().toISOString(),
         title: `${packageJson.description}`,
         package: `${packageJson.name} v${packageJson.version}`,
-        PUBLIC_URL: '.'
+        PUBLIC_URL: 'https://immnk.github.io/search-team-react'
       }),
       new CopyPlugin({
         patterns: ['public/manifest.json', 'public/icon-192x192.png', 'public/robots.txt']
