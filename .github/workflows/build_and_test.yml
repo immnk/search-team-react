@@ -24,5 +24,6 @@ on:
   # Trigger workflow if PR raised with base as develop
   pull_request:
     branches:
+      - master
       - develop
       - release
