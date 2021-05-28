@@ -40,7 +40,8 @@ module.exports = (env) => {
         store: path.resolve(packageRoot, 'src/store'),
         components: path.resolve(packageRoot, 'src/components'),
         pages: path.resolve(packageRoot, 'src/pages'),
-        utils: path.resolve(packageRoot, 'src/utils')
+        utils: path.resolve(packageRoot, 'src/utils'),
+        'react-dom': '@hot-loader/react-dom'
       }
     },
     module: {
