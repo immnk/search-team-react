@@ -3,7 +3,7 @@
 
 .footerImg {
   background: #fff url('./footer.png');
-  background-position: 0px -175px;
+  background-position: 0 -175px;
   background-size: cover;
   height: 300px;
   width: 100%;
