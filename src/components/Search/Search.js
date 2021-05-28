@@ -11,7 +11,7 @@ const Search = ({ className, handleSearchInput }) => {
   return (
     <section className={classNames(css.root, className)}>
       <div className={css.container}>
-        <h3 className={css.header}>User Directory</h3>
+        <h3 className={css.header}>Know your users</h3>
         <label htmlFor="search" className={css.searchInput}>
           <span className={classNames('material-icons', css.searchIcon)}>person_search</span>
           <input

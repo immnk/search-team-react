@@ -1,0 +1,66 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test User render app 1`] = `
+<section
+  className="root my-classname"
+>
+  <figure
+    className="figure"
+  >
+    <img
+      alt="Leanne Graham"
+      src="https://source.unsplash.com/collection/888146/300x300?id=1&name=Leanne Graham"
+    />
+  </figure>
+  <aside
+    className="details"
+  >
+    <h3>
+      Leanne Graham
+    </h3>
+    <p
+      className="username"
+    >
+      Bret
+    </p>
+    <a
+      href="mailto:Sincere@april.biz"
+    >
+      <span
+        className="material-icons icon"
+      >
+        contact_mail
+      </span>
+      <span>
+        Sincere@april.biz
+      </span>
+    </a>
+    <a
+      href="tel:1-770-736-8031 x56442"
+    >
+      <span
+        className="material-icons icon"
+      >
+        call
+      </span>
+      <span>
+        1-770-736-8031 x56442
+      </span>
+    </a>
+    <a
+      href="http://www.google.com/maps/place/-37.3159,81.1496"
+      rel="noreferrer"
+      target="_blank"
+    >
+      <span
+        className="material-icons icon"
+      >
+        place
+      </span>
+      <span>
+        Locate Me
+      </span>
+    </a>
+  </aside>
+</section>
+`;

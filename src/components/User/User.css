@@ -1,0 +1,52 @@
+.root {
+  border: 1px solid #cbcddc80;
+  box-shadow: 0 1px 3px #aaaaaa1f, 0 1px 2px #aaaaaa3d;
+  background: #fff;
+}
+
+.figure {
+  text-align: center;
+  margin: 1.2rem;
+
+  img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 3px solid #fff;
+    box-shadow: 0 1px 3px #aaaaaa1f, 0 1px 2px #aaaaaa3d;
+  }
+}
+
+.icon {
+}
+
+.details {
+  padding: 1.2rem;
+
+  h3 {
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 400;
+  }
+
+  a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    margin-bottom: 0.5rem;
+
+    .icon {
+      color: #4d4f59b3;
+      margin-right: 0.5rem;
+    }
+  }
+}
+
+.username {
+  color: grey;
+  font-size: 1.2rem;
+  text-transform: lowercase;
+  font-weight: 100;
+  text-align: center;
+  margin-bottom: 1.2rem;
+}

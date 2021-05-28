@@ -5,7 +5,7 @@ exports[`Test App render app 1`] = `
   className="root"
 >
   <ConnectWrapper />
-  <UsersList />
+  <ConnectWrapper />
   <Footer />
 </div>
 `;

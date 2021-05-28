@@ -1,5 +1,8 @@
 const initialState = {
-  search: ''
+  search: '',
+  loading: false,
+  hasData: false,
+  data: []
 };
 
 export default initialState;

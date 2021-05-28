@@ -1,26 +1,38 @@
 .root {
 }
 
-.container {
+.footerImg {
+  background: #fff url('./footer.png');
+  background-position: 0 -175px;
+  background-size: cover;
+  height: 300px;
+  width: 100%;
+}
+
+.wrapper {
+  padding: 2rem;
+
+  h3 {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 100;
+    font-family: 'Lobster', cursive;
+  }
+}
+
+.linkWrapper {
+  display: flex;
+  justify-content: space-between;
   width: 720px;
   margin: 0 auto;
-  padding: 2.4rem;
 
   @media screen and (max-width: 540px) {
     width: 100%;
   }
 }
 
-.header {
-  font-size: 3.2rem;
-  font-weight: 400;
-  margin-bottom: 2.4rem;
-  text-align: center;
-}
-
-.description {
-  font-weight: 300;
-  line-height: 1.5;
-  font-size: 1.6rem;
-  text-align: center;
+.aside {
+  dd {
+    margin-bottom: 1.2rem;
+  }
 }
