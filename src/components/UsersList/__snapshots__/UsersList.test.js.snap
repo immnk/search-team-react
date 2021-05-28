@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test UsersList render app 1`] = `
+<section
+  className="root my-classname"
+>
+  <div
+    className="container"
+  >
+    <h3
+      className="header"
+    >
+      UsersList is here!
+    </h3>
+    <p
+      className="description"
+    >
+      Some description is here
+    </p>
+  </div>
+</section>
+`;
