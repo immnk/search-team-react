@@ -31,7 +31,7 @@ module.exports = (env) => {
       path: path.resolve(packageRoot, 'build'),
       filename: '[name].js',
       chunkFilename: '[name]-[hash:8].js',
-      publicPath: 'https://immnk.github.io/search-team-react/'
+      publicPath: isProd ? 'https://immnk.github.io/search-team-react/' : '/'
     },
     resolve: {
       extensions: ['.js', '.jsx'],
@@ -117,7 +117,7 @@ module.exports = (env) => {
     },
     target: 'web',
     optimization: {
-      minimize: true,
+      minimize: isProd,
       minimizer: ['...', new CssMinimizerPlugin()]
     },
     plugins: [
