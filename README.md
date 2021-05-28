@@ -1,6 +1,6 @@
 # Search users
 
-[![Build Status](https://github.com/immnk/search-team-react/actions/workflows/build_and_test.yml/badge.svg)](https://github.com/immnk/search-team-react/actions/workflows/build_and_test.yml) [![CodeFactor](https://www.codefactor.io/repository/github/immnk/search-team-react/badge)](https://www.codefactor.io/repository/github/immnk/search-team-react) [![Tests](https://img.shields.io/badge/tests-covered-brightgreen.svg)](https://github.com/immnk/search-team-react/issues)
+[![Build Status](https://github.com/immnk/search-team-react/actions/workflows/build_and_test.yml/badge.svg)](https://github.com/immnk/search-team-react/actions/workflows/build_and_test.yml) [![CodeFactor](https://www.codefactor.io/repository/github/immnk/search-team-react/badge?s=370a601c1f8264650427187abfa6c28a310930ea)](https://www.codefactor.io/repository/github/immnk/search-team-react) [![Tests](https://img.shields.io/badge/tests-covered-brightgreen.svg)](https://github.com/immnk/search-team-react/issues)
 
 > Search users is an application that searches users over a particular set demonstrating capabilities. It contains a minimal search page which showcases talent of the dev and his capabilities for the entire dev lifecycle of a UI project from code, build, test and deploy with CI/CD. This project create `build` folder during build and deploy its content to `gh-pages` using [![Github Actions](https://img.shields.io/badge/GitHubActions-enabled-brightgreen.svg)](https://github.com/immnk/search-team-react/actions/workflows/build_and_deploy.yml)
 
