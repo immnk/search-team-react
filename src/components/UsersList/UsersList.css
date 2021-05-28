@@ -1,26 +1,23 @@
 .root {
+  margin-top: -8rem;
 }
 
 .container {
-  width: 720px;
+  width: 900px;
   margin: 0 auto;
   padding: 2rem;
+
+  @media screen and (max-width: 1024px) {
+    width: 720px;
+  }
 
   @media screen and (max-width: 540px) {
     width: 100%;
   }
 }
 
-.header {
-  font-weight: 400;
-  font-size: 3.2rem;
-  margin-bottom: 2.4rem;
-  text-align: center;
-}
-
-.description {
-  font-weight: 300;
-  line-height: 1.5;
-  font-size: 1.6rem;
-  text-align: center;
+.users {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  grid-gap: 1.5rem;
 }
