@@ -1,22 +1,35 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Test UsersList render app 1`] = `
-<section
-  className="root my-classname"
+<Connect
+  actions={[Function]}
+  className="my-classname"
+  data={
+    Array [
+      Object {
+        "address": Object {
+          "city": "Gwenborough",
+          "geo": Object {
+            "lat": "-37.3159",
+            "lng": "81.1496",
+          },
+          "street": "Kulas Light",
+          "suite": "Apt. 556",
+          "zipcode": "92998-3874",
+        },
+        "email": "Sincere@april.biz",
+        "id": 1,
+        "name": "Leanne Graham",
+        "phone": "1-770-736-8031 x56442",
+        "username": "Bret",
+      },
+    ]
+  }
+  fetchUsersFromBackend={[Function]}
+  hasData={true}
+  loading={false}
+  mapToProps={[Function]}
 >
-  <div
-    className="container"
-  >
-    <h3
-      className="header"
-    >
-      UsersList is here!
-    </h3>
-    <p
-      className="description"
-    >
-      Some description is here
-    </p>
-  </div>
-</section>
+  <Component />
+</Connect>
 `;

@@ -4,19 +4,75 @@ exports[`Test Footer render app 1`] = `
 <section
   className="root my-classname"
 >
-  <div
-    className="container"
+  <figure
+    className="footerImg"
+  />
+  <section
+    className="wrapper"
   >
-    <h3
-      className="header"
-    >
-      Footer is here!
+    <h3>
+      Developed by Mani
     </h3>
-    <p
-      className="description"
+    <div
+      className="linkWrapper"
     >
-      Some description is here
-    </p>
-  </div>
+      <aside
+        className="aside"
+      >
+        <dl>
+          <dt>
+            Source Code
+          </dt>
+          <dd>
+            <a
+              href="https://github.com/immnk/search-team-react"
+              rel="noreferrer"
+              target="_blank"
+            >
+              https://github.com/immnk/search-team-react
+            </a>
+          </dd>
+          <dt>
+            Hosted on
+          </dt>
+          <dd>
+            <a
+              href="https://serene-knuth-d39e99.netlify.app/"
+              rel="noreferrer"
+              target="_blank"
+            >
+              https://serene-knuth-d39e99.netlify.app/
+            </a>
+          </dd>
+        </dl>
+      </aside>
+      <aside
+        className="aside"
+      >
+        <dl>
+          <dt>
+            email me
+          </dt>
+          <dd>
+            <a
+              href="mailto:im.manikanta@gmail.com"
+            >
+              im.manikanta@gmail.com
+            </a>
+          </dd>
+          <dt>
+            Call me
+          </dt>
+          <dd>
+            <a
+              href="tel:+6581214525"
+            >
+              +65-81214525
+            </a>
+          </dd>
+        </dl>
+      </aside>
+    </div>
+  </section>
 </section>
 `;
