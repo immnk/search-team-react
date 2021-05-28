@@ -2,7 +2,198 @@
  * 
  *     Package: search-team-react v0.0.1
  *     File name: main.css
- *     Generated on: 5/28/2021, 12:48:06 PM
- *     Commit hash: ccbdc6bc1956b7acd47f3e15229023ed954fb23e
- */.Search-container-74b74a77{margin:0 auto;padding:8rem 2.4rem;width:720px}@media screen and (max-width:540px){.Search-container-74b74a77{width:100%}}.Search-header-8ac7ab4b{font-size:3.2rem;font-weight:400;margin-bottom:1.2rem;text-align:center}.Search-searchInput-8eacbfd2{align-items:center;border:1px solid #cbcddc80;border-radius:.4rem;box-shadow:0 1px 3px #aaaaaa1f,0 1px 2px #aaaaaa3d;display:flex;margin:1.4rem;transition:all .3s cubic-bezier(.25,.8,.25,1)}.Search-searchInput-8eacbfd2 input{border:none;display:block;flex:1;font-size:2.4rem;font-weight:100;padding:1.5rem 1.5rem 1.5rem 0}.Search-searchInput-8eacbfd2 input:focus{outline:none}.Search-searchInput-8eacbfd2:focus-within{box-shadow:0 1px 6px rgb(0 0 0/12%),0 1px 12px rgb(0 0 0/12%)}.Search-searchIcon-d1de60a9{color:#4d4f59b3;margin:0 1.4rem}.UsersList-container-2f3ca6fb{margin:0 auto;padding:2rem;width:720px}@media screen and (max-width:540px){.UsersList-container-2f3ca6fb{width:100%}}.UsersList-header-131bf505{font-size:3.2rem;font-weight:400;margin-bottom:2.4rem;text-align:center}.UsersList-description-59f7d424{font-size:1.6rem;font-weight:300;line-height:1.5;text-align:center}.Footer-container-94527a8b{margin:0 auto;padding:2.4rem;width:720px}@media screen and (max-width:540px){.Footer-container-94527a8b{width:100%}}.Footer-header-3b2f8680{font-size:3.2rem;font-weight:400;margin-bottom:2.4rem;text-align:center}.Footer-description-909c4ca9{font-size:1.6rem;font-weight:300;line-height:1.5;text-align:center}.App-root-fa10d6da{font-size:2rem}
+ *     Generated on: 5/28/2021, 5:54:35 PM
+ *     Commit hash: 23091462e4937abd8f70b7533750b77a7d677e0d
+ */
+.Search-root-17acf9f8 {
+  background: linear-gradient(0deg, #000000e0, #1111117d),
+    url('https://cdn.dribbble.com/users/1626229/screenshots/14571364/media/c29cef6df5ebfeb98bd4455392abaf7d.jpg')
+      no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.Search-container-74b74a77 {
+  width: 720px;
+  margin: 0 auto;
+  padding: 10rem 2.4rem;
+}
+
+@media screen and (max-width: 540px) {
+
+.Search-container-74b74a77 {
+    width: 100%
+}
+  }
+
+.Search-header-8ac7ab4b {
+  font-family: 'Lobster', cursive;
+  font-weight: 400;
+  font-size: 3.2rem;
+  margin-bottom: 1.2rem;
+  text-align: center;
+  color: #fff;
+}
+
+.Search-searchInput-8eacbfd2 {
+  border: 1px solid #cbcddc80;
+  border-radius: 0.4rem;
+  display: flex;
+  align-items: center;
+  margin: 1.4rem;
+  box-shadow: 0 1px 3px #ffffff1f, 0 1px 2px #ffffff3d;
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  background: #fff;
+}
+
+.Search-searchInput-8eacbfd2 input {
+    border: none;
+    display: block;
+    flex: 1;
+    font-size: 2.4rem;
+    font-weight: 100;
+    padding: 1.5rem 1.5rem 1.5rem 0;
+  }
+
+.Search-searchInput-8eacbfd2 input:focus {
+      outline: none;
+    }
+
+.Search-searchInput-8eacbfd2:focus-within {
+    box-shadow: rgb(255 255 255 / 12%) 0 1px 6px, rgb(255 255 255 / 12%) 0 1px 12px;
+  }
+
+.Search-searchIcon-d1de60a9 {
+  color: #4d4f59b3;
+  margin: 0 1.4rem;
+}
+
+.User-root-00a91d1d {
+  border: 1px solid #cbcddc80;
+  box-shadow: 0 1px 3px #aaaaaa1f, 0 1px 2px #aaaaaa3d;
+  background: #fff;
+}
+
+.User-figure-a5204a43 {
+  text-align: center;
+  margin: 1.2rem;
+}
+
+.User-figure-a5204a43 img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 3px solid #fff;
+    box-shadow: 0 1px 3px #aaaaaa1f, 0 1px 2px #aaaaaa3d;
+  }
+
+.User-icon-a1009bb8 {
+}
+
+.User-details-dc6d9a53 {
+  padding: 1.2rem;
+}
+
+.User-details-dc6d9a53 h3 {
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 400;
+  }
+
+.User-details-dc6d9a53 a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    margin-bottom: 0.5rem;
+  }
+
+.User-details-dc6d9a53 a .User-icon-a1009bb8 {
+      color: #4d4f59b3;
+      margin-right: 0.5rem;
+    }
+
+.User-username-9fa8510d {
+  color: grey;
+  font-size: 1.2rem;
+  text-transform: lowercase;
+  font-weight: 100;
+  text-align: center;
+  margin-bottom: 1.2rem;
+}
+
+.UsersList-root-95cd2a3f {
+  margin-top: -8rem;
+}
+
+.UsersList-container-2f3ca6fb {
+  width: 900px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+@media screen and (max-width: 1024px) {
+
+.UsersList-container-2f3ca6fb {
+    width: 720px
+}
+  }
+
+@media screen and (max-width: 540px) {
+
+.UsersList-container-2f3ca6fb {
+    width: 100%
+}
+  }
+
+.UsersList-users-637a4298 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  grid-gap: 1.5rem;
+}
+
+.Footer-root-f63ddf93 {
+}
+
+.Footer-footerImg-a04ac1fc {
+  background: #fff url(/static/images/footer-a5a0e2d2.png);
+  background-position: 0 -175px;
+  background-size: cover;
+  height: 300px;
+  width: 100%;
+}
+
+.Footer-wrapper-2b15f6c1 {
+  padding: 2rem;
+}
+
+.Footer-wrapper-2b15f6c1 h3 {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 100;
+    font-family: 'Lobster', cursive;
+  }
+
+.Footer-linkWrapper-56c01038 {
+  display: flex;
+  justify-content: space-between;
+  width: 720px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 540px) {
+
+.Footer-linkWrapper-56c01038 {
+    width: 100%
+}
+  }
+
+.Footer-aside-e44fda1b dd {
+    margin-bottom: 1.2rem;
+  }
+
+.App-root-fa10d6da {
+  font-size: 2rem;
+}
+
+
 /*# sourceMappingURL=main.css.map*/
