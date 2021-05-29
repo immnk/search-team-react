@@ -1,3 +1,10 @@
+## [1.1.0](https://github.com/immnk/search-team-react/compare/v1.0.1...v1.1.0) (2021-05-29)
+
+
+### Features
+
+* [#13](https://github.com/immnk/search-team-react/issues/13) users can be searched over different categories, responsive footer and added no users found ([fe60cbf](https://github.com/immnk/search-team-react/commit/fe60cbf0fc6b5834131df5a978a5a8b874ec9976))
+
 ### [1.0.1](https://github.com/immnk/search-team-react/compare/v1.0.0...v1.0.1) (2021-05-29)
 
 
