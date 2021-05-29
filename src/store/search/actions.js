@@ -7,6 +7,8 @@ const actions = (store) => {
     search: { ...state.search, search: event.target.value }
   });
 
+  const handleCategoryChange = (state, category) => ({ search: { ...state.search, category } });
+
   const fetchUsersFromBackend = (state) => {
     store.setState({
       search: {
@@ -40,6 +42,7 @@ const actions = (store) => {
 
   return {
     handleSearchInput,
+    handleCategoryChange,
     fetchUsersFromBackend
   };
 };

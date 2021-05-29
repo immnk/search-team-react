@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import classNames from 'classnames';
 import PropTypes from 'prop-types';
 import { connect } from 'redux-zero/react';
@@ -7,7 +7,15 @@ import actions from 'store/search/actions';
 
 import css from './Search.css';
 
-const Search = ({ className, handleSearchInput }) => {
+const Search = ({ className, handleSearchInput, handleCategoryChange }) => {
+  const [category, setCategory] = useState('name');
+
+  function onCategoryChange(event) {
+    const { value } = event.currentTarget;
+    setCategory(value);
+    handleCategoryChange(value);
+  }
+
   return (
     <section className={classNames(css.root, className)}>
       <div className={css.container}>
@@ -25,6 +33,53 @@ const Search = ({ className, handleSearchInput }) => {
             onChange={handleSearchInput}
           />
         </label>
+
+        <section className={css.categories}>
+          <label htmlFor="name" className={css.radioInput}>
+            <input
+              id="name"
+              type="radio"
+              name="category"
+              value="name"
+              checked={category === 'name'}
+              onChange={onCategoryChange}
+            />
+            <span>Name</span>
+          </label>
+          <label htmlFor="email" className={css.radioInput}>
+            <input
+              id="email"
+              type="radio"
+              name="category"
+              value="email"
+              checked={category === 'email'}
+              onChange={onCategoryChange}
+            />
+            <span>e-mail</span>
+          </label>
+          <label htmlFor="username" className={css.radioInput}>
+            <input
+              id="username"
+              type="radio"
+              name="category"
+              value="username"
+              checked={category === 'username'}
+              onChange={onCategoryChange}
+            />
+            <span>Username</span>
+          </label>
+          <label htmlFor="company" className={css.radioInput}>
+            <input
+              id="company"
+              type="radio"
+              name="category"
+              value="company.name"
+              checked={category === 'company.name'}
+              onChange={onCategoryChange}
+            />
+            <span>Company</span>
+          </label>
+        </section>
       </div>
     </section>
   );
@@ -36,7 +91,8 @@ Search.defaultProps = {
 
 Search.propTypes = {
   className: PropTypes.string,
-  handleSearchInput: PropTypes.func.isRequired
+  handleSearchInput: PropTypes.func.isRequired,
+  handleCategoryChange: PropTypes.func.isRequired
 };
 
 export default connect(null, actions)(Search);

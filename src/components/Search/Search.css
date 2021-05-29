@@ -25,6 +25,22 @@
   color: #fff;
 }
 
+.radioInput {
+  font-size: 1.6rem;
+  display: inline-flex;
+  align-items: center;
+
+  input {
+    height: 2.5rem;
+    width: 2.5rem;
+    margin-right: 0.5rem;
+  }
+
+  span {
+    color: #fff;
+  }
+}
+
 .searchInput {
   border: 1px solid #cbcddc80;
   border-radius: 0.4rem;
@@ -56,4 +72,13 @@
 .searchIcon {
   color: #4d4f59b3;
   margin: 0 1.4rem;
+}
+
+.categories {
+  text-align: center;
+  margin: 1.2rem 0;
+
+  label:not(:last-child) {
+    margin-right: 1.6rem;
+  }
 }

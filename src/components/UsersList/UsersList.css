@@ -7,6 +7,12 @@
   margin: 0 auto;
   padding: 2rem;
 
+  p {
+    text-align: center;
+    font-size: 1.6rem;
+    margin-bottom: 1.6rem;
+  }
+
   @media screen and (max-width: 1024px) {
     width: 720px;
   }
@@ -20,4 +26,16 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
   grid-gap: 1.5rem;
+}
+
+.noUser {
+  text-align: center;
+
+  img {
+    height: 15rem;
+  }
+
+  figcaption {
+    font-size: 1.6rem;
+  }
 }
