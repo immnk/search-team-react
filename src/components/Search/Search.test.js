@@ -5,7 +5,9 @@ import Search from './Search';
 
 const renderSearch = (props) => {
   const defaultProps = {
-    className: 'my-classname'
+    className: 'my-classname',
+    handleSearchInput: () => {},
+    handleCategoryChange: () => {}
   };
 
   return <Search {...defaultProps} {...props} />;

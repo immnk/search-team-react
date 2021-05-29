@@ -100,7 +100,7 @@
     "test:postbuild": "jest --testMatch test/build.test.js",
     "lint": "npm run lint:eslint && npm run lint:stylelint",
     "lint:eslint": "eslint \"./src/**/*.{js,snap}\"",
-    "lint:stylelint": "stylelint ./src/**/*.css",
+    "lint:stylelint": "stylelint src/**/*.css --config .stylelintrc.json",
     "semantic-release": "semantic-release"
   },
   "repository": {

@@ -4,10 +4,10 @@ module.exports = {
   coverageDirectory: 'reports',
   coverageThreshold: {
     global: {
-      statements: 50,
+      statements: 40,
       branches: 0,
-      functions: 21,
-      lines: 50
+      functions: 15,
+      lines: 45
     }
   },
   reporters: [

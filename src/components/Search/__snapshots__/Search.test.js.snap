@@ -4,6 +4,8 @@ exports[`Test Search render app 1`] = `
 <Connect
   actions={[Function]}
   className="my-classname"
+  handleCategoryChange={[Function]}
+  handleSearchInput={[Function]}
   mapToProps={null}
 >
   <Component />
