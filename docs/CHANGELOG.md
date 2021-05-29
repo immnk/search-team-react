@@ -1,3 +1,10 @@
+### [1.0.1](https://github.com/immnk/search-team-react/compare/v1.0.0...v1.0.1) (2021-05-29)
+
+
+### Bug Fixes
+
+* [#10](https://github.com/immnk/search-team-react/issues/10) fix base path for hosting on github ([ef0c1c7](https://github.com/immnk/search-team-react/commit/ef0c1c72694c083ff2cef3e816f4721086a8dbea))
+
 ## 1.0.0 (2021-05-28)
 
 
