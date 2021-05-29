@@ -12,10 +12,10 @@ object-assign
 
 /*!
  * 
- *     Package: search-team-react v1.0.0
+ *     Package: search-team-react v1.0.1
  *     File name: main.js
- *     Generated on: 5/29/2021, 4:12:29 AM
- *     Commit hash: 1454225afd030b2da783cbaca1a6f94a9f26af04
+ *     Generated on: 5/29/2021, 9:50:08 AM
+ *     Commit hash: 90f8e2639a2af4ed64f6dcade0ad50543bf08eb9
  */
 
 /*! *****************************************************************************
