@@ -7,7 +7,7 @@ module.exports = {
       statements: 40,
       branches: 0,
       functions: 15,
-      lines: 45
+      lines: 40
     }
   },
   reporters: [
