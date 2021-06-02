@@ -16,7 +16,7 @@ const Search = ({ className, handleSearchInput, handleCategoryChange }) => {
     ReactGA.event({
       category: 'Search',
       action: 'Typing Search',
-      value
+      label: value
     });
     handleSearchInput(event);
   }
@@ -26,7 +26,7 @@ const Search = ({ className, handleSearchInput, handleCategoryChange }) => {
     ReactGA.event({
       category: 'Search',
       action: 'Category change',
-      value
+      label: value
     });
     setCategory(value);
     handleCategoryChange(value);
