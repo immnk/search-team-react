@@ -1,3 +1,15 @@
+## [1.2.0](https://github.com/immnk/search-team-react/compare/v1.1.0...v1.2.0) (2021-06-02)
+
+
+### Features
+
+* [#3](https://github.com/immnk/search-team-react/issues/3) - integrate google analytics for search and category change tracking ([6175c50](https://github.com/immnk/search-team-react/commit/6175c50654a8cc9106299e363ed4e2a899a1bcea))
+
+
+### Bug Fixes
+
+* [#3](https://github.com/immnk/search-team-react/issues/3) - modify tracking var ([0aeda34](https://github.com/immnk/search-team-react/commit/0aeda34e5ccf9e92af6378d450d8bdad16529c0f))
+
 ## [1.1.0](https://github.com/immnk/search-team-react/compare/v1.0.1...v1.1.0) (2021-05-29)
 
 
