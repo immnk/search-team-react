@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import classNames from 'classnames';
 import PropTypes from 'prop-types';
 import { connect } from 'redux-zero/react';
+import ReactGA from 'react-ga';
 
 import actions from 'store/search/actions';
 
@@ -10,8 +11,23 @@ import css from './Search.css';
 const Search = ({ className, handleSearchInput, handleCategoryChange }) => {
   const [category, setCategory] = useState('name');
 
+  function onTextChange(event) {
+    const { value } = event.currentTarget;
+    ReactGA.event({
+      category: 'Search',
+      action: 'Typing Search',
+      label: value
+    });
+    handleSearchInput(event);
+  }
+
   function onCategoryChange(event) {
     const { value } = event.currentTarget;
+    ReactGA.event({
+      category: 'Search',
+      action: 'Category change',
+      label: value
+    });
     setCategory(value);
     handleCategoryChange(value);
   }
@@ -30,7 +46,7 @@ const Search = ({ className, handleSearchInput, handleCategoryChange }) => {
             autoCorrect="off"
             autoCapitalize="none"
             spellCheck="false"
-            onChange={handleSearchInput}
+            onChange={onTextChange}
           />
         </label>
 

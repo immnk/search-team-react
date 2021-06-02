@@ -3,6 +3,8 @@ import { shallow } from 'enzyme';
 
 import Search from './Search';
 
+jest.mock('react-ga');
+
 const renderSearch = (props) => {
   const defaultProps = {
     className: 'my-classname',
